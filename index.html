@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
+    <!-- BARRA NAVEGACION DESKTOP -->
     <nav id="desktop-nav">
       <div class="logo">Rodrigo Fontela</div>
       <div>
@@ -19,7 +20,7 @@
         </ul>
       </div>
     </nav>
-
+    <!-- BARRA NAVEGACION MOBILE -->
     <nav id="hamburger-nav">
       <div class="logo">Rodrigo Fontela</div>
       <div class="hamburger-menu">
@@ -36,6 +37,44 @@
         </div>
       </div>
     </nav>
+    <!-- SECCION PERFIL -->
+    <section id="profile">
+      <div class="section-picture">
+        <img src="#" alt="Rodrigo Fontela profile picture" />
+      </div>
+      <div class="section-text">
+        <p class="text-p1">Hola, me llamo</p>
+        <h1 class="name-profile">Rodrigo Fontela</h1>
+        <p class="text-p2">y soy desarrollador Backend</p>
+
+        <div class="section-buttons">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CV_Rodrigo_Fontela.pdf')"
+          >
+            Descargar CV
+          </button>
+
+          <button class="btn btn-color-1" onclick="location.href='./#contacto'">
+            Contacto
+          </button>
+        </div>
+        <div class="section-social">
+          <img
+            src="./assets/linkedin.png"
+            alt="linkedin profile"
+            class="icon"
+            onclick="location.href='http://www.linkedin.com/in/alejandro-fontela'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="github profile"
+            class="icon"
+            onclick="location.href='https://github.com/AlejandoFontela'"
+          />
+        </div>
+      </div>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
